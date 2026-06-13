@@ -17,5 +17,5 @@ scoop install osamitools/catdot
 
 ## Links
 
-- [CatDot Engine](https://github.com/838288383838383/osamitools) - Source code
+- [CatDot Engine](https://github.com/838288383838383/catdot-engine) - Source code
 - [Releases](https://github.com/838288383838383/osamitools/releases) - Downloads
