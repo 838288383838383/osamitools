@@ -1,0 +1,31 @@
+{
+    "version": "0.1.0",
+    "description": "CatDot Engine - A modern game engine (better than Godot)",
+    "homepage": "https://github.com/838288383838383/osamitools",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/838288383838383/osamitools/releases/download/v0.1.0/CatDot-Setup.exe",
+            "hash": ""
+        }
+    },
+    "bin": "CatDot Setup.exe",
+    "checkver": {
+        "github": "https://github.com/838288383838383/osamitools"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/838288383838383/osamitools/releases/download/v$version/CatDot-Setup.exe"
+            }
+        }
+    },
+    "installer": {
+        "script": [
+            "Write-Host ''",
+            "Write-Host 'CatDot Engine installed!' -ForegroundColor Green",
+            "Write-Host 'Launch: CatDot Setup.exe' -ForegroundColor Yellow",
+            "Write-Host ''"
+        ]
+    }
+}
