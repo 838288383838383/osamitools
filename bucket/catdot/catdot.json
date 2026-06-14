@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/838288383838383/osamitools/releases/download/v0.1.0/CatDot-Setup.exe",
+            "url": "https://github.com/838288383838383/osamitools/releases/download/v0.1.0/CatDot-Setup.zip",
             "hash": ""
         }
     },
@@ -16,7 +16,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/838288383838383/osamitools/releases/download/v$version/CatDot-Setup.exe"
+                "url": "https://github.com/838288383838383/osamitools/releases/download/v$version/CatDot-Setup.zip"
             }
         }
     },
@@ -24,7 +24,6 @@
         "script": [
             "Write-Host ''",
             "Write-Host 'CatDot Engine installed!' -ForegroundColor Green",
-            "Write-Host 'Launch: CatDot Setup.exe' -ForegroundColor Yellow",
             "Write-Host ''"
         ]
     }
